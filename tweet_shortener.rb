@@ -27,4 +27,6 @@ def bulk_tweet_shortener(array_of_strings)
     puts shortened
   end
 end
+
+def selective_tweet_shortener(string)
   
