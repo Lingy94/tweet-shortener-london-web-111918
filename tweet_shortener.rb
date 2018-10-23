@@ -31,3 +31,5 @@ end
 def selective_tweet_shortener(string)
   if string.length < 140
     puts string
+  else
+    
