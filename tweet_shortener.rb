@@ -15,7 +15,7 @@ end
 
 def word_substituter(string)
   array = string.split(" ")
-  subs = substitutes.keys
+  subs = substituter.keys
   array.each do |word| 
     if subs.include?(word)
       return word
