@@ -18,7 +18,5 @@ def word_substituter(string)
   subs = dictionary.keys
     array.map do |word|
       dictionary.fetch(word, word)
-      
     end
-  end
 end
