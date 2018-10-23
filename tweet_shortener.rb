@@ -20,3 +20,11 @@ def word_substituter(string)
       dictionary.fetch(word, word)
     end.join(" ")
 end
+
+def bulk_tweet_shortener(array_of_strings)
+  array_of_strings.each do |bulk|
+    shortened = word_substituter(bulk)
+    puts shortened
+  end
+end
+  
