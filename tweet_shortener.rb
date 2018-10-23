@@ -14,7 +14,7 @@ def dictionary
 end
 
 def word_substituter(string)
-  array = string.split(" ").downcase
+  array = string.downcase.split(" ")
   subs = dictionary.keys
     array.map! do |word|
       dictionary.fetch(word, word)
