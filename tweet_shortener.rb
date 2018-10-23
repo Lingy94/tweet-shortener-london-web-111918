@@ -29,4 +29,5 @@ def bulk_tweet_shortener(array_of_strings)
 end
 
 def selective_tweet_shortener(string)
-  
+  if string.length < 140
+    puts string
