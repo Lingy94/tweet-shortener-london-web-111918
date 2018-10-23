@@ -17,6 +17,6 @@ def word_substituter(string)
   array = string.split(" ")
   subs = dictionary.keys
     array.map! do |word|
-      dictionary.fetch(word, word).join(" ")
+      dictionary.fetch(word, word)
     end
 end
